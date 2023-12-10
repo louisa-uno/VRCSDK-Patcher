@@ -1,4 +1,4 @@
-# VRChat SDK Patcher Script
+# VRChat SDK Patcher
 
 [![Build executable with PyInstaller](https://github.com/Luois45/VRCSDK-Patcher/actions/workflows/build.yml/badge.svg)](https://github.com/Luois45/claim-free-steam-packages/actions/workflows/build.yml)
 [![DeepSource](https://deepsource.io/gh/Luois45/VRCSDK-Patcher.svg/?label=active+issues&show_trend=true&token=eIo_r1Hx850IQIJEoUj3FaC5)](https://deepsource.io/gh/Luois45/claim-free-steam-packages/?ref=repository-badge)
