@@ -11,7 +11,7 @@ A patcher for the newer VRChat SDKs to disable upload limits which is easy to us
 ## Instruction of usage
 
 1. Download the [Windows executable](https://github.com/Luois45/VRCSDK-Patcher/releases/latest) or just clone this repository
-2. Execute the run.py script or the VRCSDK-Patcher.exe
+2. Execute the VRCSDK-Patcher.exe or the run.py script
 3. Select the folder of the unity project you created using VCC which you want to patch the SDK of.
 4. Enjoy using the SDK with most limits disabled
 
