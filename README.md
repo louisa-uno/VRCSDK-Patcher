@@ -8,6 +8,9 @@
 
 A patcher for the newer VRChat SDKs to disable upload limits which is easy to use and compatible only with VRChat Creator Companion Projects.
 
+> [!NOTE]  
+> The script is currently tested and working for the VRChat Avatar SDK 3.4.1 - 3.5.0
+
 ## Instruction of usage
 
 1. Download the [Windows executable](https://github.com/Luois45/VRCSDK-Patcher/releases/latest) or just clone this repository
