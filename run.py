@@ -66,7 +66,11 @@ import json
 from tkinter import filedialog
 import subprocess
 
-subprocess.run("chcp 65001", shell=True, check=True)
+subprocess.run("chcp 65001",
+               shell=True,
+               check=True,
+               stdout=subprocess.PIPE,
+               stderr=subprocess.PIPE)
 
 
 class bcolors:
