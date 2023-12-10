@@ -1,1 +1,2 @@
 tkfilebrowser==2.3.2
+pyinstaller==6.2.0
