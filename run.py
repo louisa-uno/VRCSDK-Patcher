@@ -61,6 +61,7 @@ patches = {
     ]
 }
 
+import sys
 import os
 import json
 from tkinter import filedialog
@@ -125,7 +126,7 @@ try:
 except FileNotFoundError:
 	print(messages.NO_PROJECT_SELECTED)
 	os.system('pause')
-	exit(1)
+	sys.exit(1)
 
 for patch in patches:
 	file = file.replace(patches[patch][0], patches[patch][1], 1)
@@ -143,4 +144,4 @@ with open(file_path, "w") as f:
 
 print(messages.SAVED)
 os.system('pause')
-exit(0)
+sys.exit(0)
