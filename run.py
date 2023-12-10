@@ -64,6 +64,9 @@ patches = {
 import os
 import json
 from tkinter import filedialog
+import subprocess
+
+subprocess.run("chcp 65001", shell=True, check=True)
 
 
 class bcolors:
