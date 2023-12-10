@@ -96,7 +96,7 @@ class messages:
 
 try:
 	with open(
-	    os.getenv('LOCALAPPDATA') + "\VRChatCreatorCompanion\settings.json",
+	    os.getenv('LOCALAPPDATA') + r"\VRChatCreatorCompanion\settings.json",
 	    "r") as f:
 		defaultProjectPath = json.load(f)["defaultProjectPath"]
 except (json.decoder.JSONDecodeError, FileNotFoundError):
@@ -115,7 +115,7 @@ else:
 if project_path == "":
 	print(messages.NO_FOLDER_SELECTED)
 
-file_path = project_path + "\Packages\com.vrchat.avatars\Editor\VRCSDK\SDK3A\VRCSdkControlPanelAvatarBuilder.cs"
+file_path = project_path + r"\Packages\com.vrchat.avatars\Editor\VRCSDK\SDK3A\VRCSdkControlPanelAvatarBuilder.cs"
 
 print(messages.STARTING)
 
