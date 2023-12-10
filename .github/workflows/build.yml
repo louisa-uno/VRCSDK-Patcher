@@ -20,7 +20,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Build the executables
-      run: cmd.exe /c 'build'
+      run: pyinstaller run.py -F -n VRCSDK-Patcher
     - name: Upload the executables
       uses: actions/upload-artifact@v2
       with:
